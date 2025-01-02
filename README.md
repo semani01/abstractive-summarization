@@ -55,10 +55,10 @@ http://127.0.0.1:5000/
 # Screenshots
 
 ## Model Architectire
-![alt text](app/image.png)
+![alt text](app/model_architecture.png)
 
 ## App Interface
-![alt text](app/image-1.png)
+![alt text](app/app.png)
 
 
 # Credits
