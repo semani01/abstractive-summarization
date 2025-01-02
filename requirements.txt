@@ -1,0 +1,4 @@
+flask
+transformers
+PyPDF2
+beautifulsoup4
