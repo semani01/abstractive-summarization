@@ -11,11 +11,6 @@ This project implements an abstractive text summarization system using transform
 - User-friendly interface for uploading PDFs, entering text, or pasting URLs.
 - Backend powered by Python's Flask framework and Pegasus transformer model.
 
-## **File Structure**
-SUMMARIZATION_APP/ ├── app/ │ ├── deployment_model/ │ │ ├── config.json │ │ ├── generation_config.json │ │ ├── model.safetensors │ │ ├── special_tokens_map.json │ │ ├── spiece.model │ │ ├── tokenizer_config.json │ ├── app.py ├── static/ │ ├── images/ │ │ ├── adiyogi.jpg │ │ ├── ss.jpg │ │ ├── ss1.jpg │ │ ├── ss2.jpg │ ├── scripts.js │ ├── styles.css ├── templates/ │ ├── index.html ├── venv/ │ ├── ... ├── .gitignore ├── pyvenv.cfg ├── requirements.txt
-
-
-
 ## **Installation Instructions**
 1. Clone this repository:
    ```bash
