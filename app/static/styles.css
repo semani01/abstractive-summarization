@@ -1,0 +1,168 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f3e9; /* Light pastel beige */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the top */
+    min-height: 100vh; /* Ensure the body takes the full height of the viewport */
+}
+
+/* Container Styling */
+.container {
+    width: 90%;
+    max-width: 600px;
+    background: #fef6e4; /* Pastel peach */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px 0; /* Add margin to avoid cutting off */
+}
+
+/* Title */
+.title {
+    font-size: 2rem;
+    color: #4d4b57; /* Soft charcoal */
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1rem;
+    color: #717171; /* Neutral gray */
+    margin-bottom: 20px;
+}
+
+/* Text Area Styling */
+textarea {
+    width: 100%;
+    height: 120px;
+    border: 1px solid #d9c9ac; /* Subtle beige border */
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    background-color: #fefaf1; /* Off-white pastel */
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #a5a58d; /* Pastel olive green */
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #87a8a5; /* Soft pastel teal */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5f8a8b; /* Darker teal */
+}
+
+/* Input Fields */
+input[type="file"], input[type="text"] {
+    margin: 10px 0;
+    padding: 8px;
+    font-size: 1rem;
+    width: calc(100% - 20px);
+    border: 1px solid #d9c9ac; /* Subtle beige border */
+    border-radius: 5px;
+    background-color: #fefaf1; /* Off-white pastel */
+}
+
+input:focus {
+    outline: none;
+    border-color: #a5a58d; /* Pastel olive green */
+}
+
+/* Output Container */
+.output-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#summary-output {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fdf2e9; /* Very light pastel coral */
+    border: 1px solid #e1d4c7; /* Subtle coral border */
+    border-radius: 5px;
+    min-height: 50px;
+    font-size: 1rem;
+}
+
+/* Spinner */
+.spinner {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #87a8a5; /* Soft pastel teal */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Profile Section */
+.profile {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px; /* Add padding to avoid cutting off */
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile a {
+    color: #87a8a5; /* Soft pastel teal */
+    text-decoration: none;
+}
+
+.profile a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #f7f3e9; /* Light pastel beige */
+    border-top: 1px solid #d9c9ac; /* Subtle beige border */
+    width: 100%;
+}
+
+footer p {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+/* Ensure the app content is scrollable */
+html, body {
+    height: 100%;
+    overflow-y: auto; /* Allow vertical scrolling */
+}
