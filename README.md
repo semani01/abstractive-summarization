@@ -39,7 +39,7 @@ The pre-trained Pegasus model used in this project is available as part of the G
 Use the following command to download the model directly to the `app/deployment_model/` directory:
 ```bash
 wget https://github.com/your-username/repo-name/releases/download/v1.0.0/model.safetensors -P app/deployment_model/
-
+```
 
 # Usage
 1. Run the Flask app
