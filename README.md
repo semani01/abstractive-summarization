@@ -20,7 +20,7 @@ SUMMARIZATION_APP/ ├── app/ │ ├── deployment_model/ │ │ ├─
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/abstractive-summarization-app.git
-sss
+
 2. Navigate to the project directory:
 cd abstractive-summarization-app
 
