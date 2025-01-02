@@ -35,6 +35,16 @@ Use the following command to download the model directly to the `app/deployment_
 ```bash
 wget https://github.com/your-username/repo-name/releases/download/v1.0.0/model.safetensors -P app/deployment_model/
 ```
+## **Merging Model Files**
+
+The fine-tuned Pegasus-XSum model has been split into two parts (`model_part_aa` and `model_part_ab`) to fit GitHub's file size restrictions. Before running the application, you need to merge these parts to create the full `model.safetensors` file.
+
+### **Steps to Merge**
+Run the following command in your terminal inside the `app/deployment_model` directory:
+```bash
+cat model_part_aa model_part_ab > model.safetensors
+```
+
 
 # Usage
 1. Run the Flask app
